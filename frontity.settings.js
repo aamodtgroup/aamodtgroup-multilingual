@@ -22,7 +22,10 @@ const settings =
         "state": {
           "source": {
             "url": "https://backend2.aamodtgroup.com",
-            "homepage": "hjem"
+            "homepage": "hjem",
+            "params": {
+              "lang": "nb",
+            },
           }
         }
       },
@@ -32,7 +35,7 @@ const settings =
   },
   {
     "name": "english",
-    "match": [".*aamodtgroup2.vercel.app\/en(\/.*)?$"],
+    "match": [".*localhost:3000\/en(\/.*)?$"],
     "state": {
       "frontity": {
         "url": "https://aamodtgroup2.vercel.app/en/",
@@ -53,7 +56,10 @@ const settings =
         "state": {
           "source": {
             "url": "https://backend2.aamodtgroup.com",
-            "homepage": "home"
+            "homepage": "home",
+            "params": {
+              "lang": "en",
+            },
           }
         }
       },

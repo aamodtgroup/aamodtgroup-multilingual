@@ -18,7 +18,7 @@ const Toggle = ({ actions, state }) => {
             </Box>
             <Box>
                 <Switch>
-                    <a href="/en/home/" className="toggleicon"  when={lang === "nb"}>EN</a>
+                    <a href="/en/" className="toggleicon"  when={lang === "nb"}>EN</a>
                     <a href="/" className="toggleicon">NB</a>
                 </Switch>
             </Box>
